@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var debug = require('debug')('express-example');
+var debug = require('debug')('api-orm-sequelize');
 var app = require('../app');
 var http=require('http');
 var models = require("../models");
